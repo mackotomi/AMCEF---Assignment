@@ -1,4 +1,4 @@
-let data = [
+let orders = [
     {
       id: "ord-12345",
       createdAt: 1709481632000,
@@ -307,6 +307,17 @@ let data = [
       paymentMethod: "bank_transfer",
       corporateAccount: true,
       taxExempt: true,
+    },
+    {
+      id: "ord-90123",
+      createdAt: 1675612832000,
+      state: "canceled",
+      year: 2023,
+      amount: 69.99,
+      customerName: "Celine Dion",
+      reason: "address_error",
+      attemptedContact: 2,
+      resolutionTime: 48,
     },
     {
       id: "ord-90123",

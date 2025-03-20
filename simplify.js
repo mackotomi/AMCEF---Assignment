@@ -1,0 +1,111 @@
+// The simplify script is place where i can test things on small size scale + step by step approach with comments and exploration, to better understand and learn things.
+
+let animals = [
+    {
+        id: "an-12345",
+        type: "dog",
+        breed: "labrador",
+        age: 5,
+        weight: 25,
+        color: "black",
+        location: "New York",
+        vaccinated: true,
+    },
+    {
+        id: "an-67890",
+        type: "cat",
+        breed: "siamese",
+        age: 3,
+        weight: 10,
+        color: "white",
+        location: "Los Angeles",
+        vaccinated: false,
+    },
+    {
+        id: "an-67890",
+        type: "dog",
+        breed: "bulldog",
+        age: 2,
+        weight: 30,
+        color: "brown",
+        location: "Chicago",
+        vaccinated: true,
+    },
+    {
+        id: "an-24680",
+        type: "bird",
+        breed: "parrot",
+        age: 4,
+        weight: 0.5,
+        color: "green",
+        location: "Miami",
+        vaccinated: true,
+    },
+    {
+        id: "an-13579",
+        type: "rabbit",
+        breed: "dutch",
+        age: 1,
+        weight: 2,
+        color: "white",
+        location: "Austin",
+        vaccinated: true,
+    },
+    {
+        id: "an-98765",
+        type: "hamster",
+        breed: "syrian",
+        age: 1,
+        weight: 0.3,
+        color: "golden",
+        location: "San Francisco",
+        vaccinated: false,
+    },
+    {
+        id: "an-54321",
+        type: "reptile",
+        breed: "bearded dragon",
+        age: 2,
+        weight: 1.5,
+        color: "brown",
+        location: "Seattle",
+        vaccinated: true,
+    },
+    {
+        id: "an-11223",
+        type: "fish",
+        breed: "betta",
+        age: 1,
+        weight: 0.05,
+        color: "blue",
+        location: "Houston",
+        vaccinated: false,
+    },
+    {
+        id: "an-33445",
+        type: "dog",
+        breed: "german shepherd",
+        age: 3,
+        weight: 40,
+        color: "black and tan",
+        location: "Dallas",
+        vaccinated: true,
+    },
+    {
+        id: "an-55667",
+        type: "cat",
+        breed: "maine coon",
+        age: 6,
+        weight: 15,
+        color: "tabby",
+        location: "Boston",
+        vaccinated: true,
+    },
+];
+
+
+console.log(animals);
+
+let filteredAnimals = animals.filter(animal => animal.type === 'dog')
+
+console.log(filteredAnimals);
