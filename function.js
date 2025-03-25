@@ -1,5 +1,5 @@
 
-// I completely forgot to create a function for it, lol, but I will do it now - baka.
+// I completely forgot to create a function for it, lool, but I will do it now - baka.
 
 function get_canceled_orders_object_by_year_and_month(orders) {
 
@@ -48,4 +48,8 @@ function get_canceled_orders_object_by_year_and_month(orders) {
 // ≡Ö≡ Check
 get_canceled_orders_object_by_year_and_month(orders);
 
-// Final note, the object is ordered Asceding, so the first key is the oldest year, and the last key is the most recent year. This is by design as the The ECMAScript specification defines that numeric keys in plain objects are always enumerated in ascending order. Because of this, i would not recommend to change the order of the keys in the object if specifically requested with a purpose in mind. For this reason i didnt even tried to sort the object keys to start from 2024 ↓ 2023 ↓ 2022 ↓ 2021 ↓ 2020. You got the idea..
+// Final notes: the object is ordered Ascedingly, meaning, the first key starts with the oldest year, and the last key is the most recent year. This is by design as the The ECMAScript specification defines that numeric keys in plain objects are always enumerated in ascending order. Because of this, i would not recommend to change the order of the keys in the object if specifically requested with a purpose in mind or seniority level person with more experience would request it. For this reason i didnt even tried to sort the object keys to start from 2024 ↓ 2023 ↓ 2022 ↓ 2021 ↓ 2020. You got the idea..
+
+//  Something i dont like about the function, is, that it is only restricted on the orders array focusing and extracting only the date wihin inside the function, with no possibility to controll it in some way, but i guess, this this is the power of object oriented programming, where i would create a similar set of functons like this one and call them, specific function -> for specific purpose with a specific design in mind and usecase. Long story short: This current function works only for the assigement purpose, and that's it..
+
+// The assigement was focusing on solving a problem based on idea, where the idea was to extract data sets from array filled with objects. Each object would contain associated properties for given order "order_id". I did used chatgpt as assistant to help me with the code along with my diagrams, that would help to better understand what to ask and what tools to use and when and how to get from A to B, where the B is the final goal and the problem that was solved. Im not sure if was sucessfull in the end, but i did my best to solve the problem and to provide the solution. I hope this is enough to pass the test. Thank you for your time and patience. I hope to hear from you soon and to get the feedback on my code. Thank you for this project and opportunity, as each project is a learning experience and a chance to grow and to learn something new.
